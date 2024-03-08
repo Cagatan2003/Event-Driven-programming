@@ -58,8 +58,9 @@
       <tr>
         <th width="300">Pet ID</th>
         <th width="300">Pet Name</th>
+        <th width="300">Breed</th>
         <th width="300">Owner</th>
-        <th width="300">Contact No.</th>
+        
         <th width="100" style="text-align: Center;">Action</th>
       </tr>
     </thead>

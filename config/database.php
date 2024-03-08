@@ -1,11 +1,10 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = ""; // Replace with your actual MySQL password
+$database = "db_whiskerwonderclinic";
 
-$database_name = "pet name";
-// Create connection
-$conn = new mysqli($servername, $username, $password, $database_name);
+$conn = new mysqli($servername, $username, $password, $database);
 
 // Check connection
 if ($conn->connect_error) {

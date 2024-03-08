@@ -1,8 +1,9 @@
 <?php
 
 include('../config/database.php');
+
 $value = $_POST['search'];
-    $sql = "SELECT  * FROM pet_clinic WHERE Pet_Name Like '$value%'";
+$sql = "SELECT * FROM `t_pet_ownerinfo` WHERE pet_name LIKE '$value%'";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -12,9 +13,9 @@ if ($result->num_rows > 0) {
      ?>
      <tr>
      <td><?= $row['Pet_ID']?></td>
-     <td><?= $row['Pet_Name']?></td>
-     <td><?= $row['Owner']?></td>
-     <td><?= $row['Contact_Number']?></td>
+     <td><?= $row['pet_name']?></td>
+     <td><?= $row['pet_breed']?></td>
+     <td><?= $row['o_fname']?></td>
      <td class="d-grid">
         <button type="button" class="btn btn-sm btn-block btn-success" data-bs-toggle="modal" data-bs-target="#myModal">view info</button>
      </td>
