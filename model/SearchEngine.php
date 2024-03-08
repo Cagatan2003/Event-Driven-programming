@@ -11,10 +11,13 @@ if ($result->num_rows > 0) {
    
      ?>
      <tr>
-     <td style="text-align: Center;"><?= $row['Pet_ID']?></td>
-     <td style="text-align: Center;"><?= $row['Pet_Name']?></td>
-     <td style="text-align: Center;"><?= $row['Owner']?></td>
-     <td style="text-align: Center;"><?= $row['Contact_Number']?></td>
+     <td><?= $row['Pet_ID']?></td>
+     <td><?= $row['Pet_Name']?></td>
+     <td><?= $row['Owner']?></td>
+     <td><?= $row['Contact_Number']?></td>
+     <td class="d-grid">
+        <button type="button" class="btn btn-sm btn-block btn-success" data-bs-toggle="modal" data-bs-target="#myModal">view info</button>
+     </td>
      </tr>
 
      <?php

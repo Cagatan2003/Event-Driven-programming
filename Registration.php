@@ -25,9 +25,7 @@
         <image src="./assets/img/logo.png" height="55"> 
     </a>
   
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    
     <div class="collapse navbar-collapse" id="mynavbar">
       <ul class="navbar-nav me-auto">
         <li class="nav-item active ">
@@ -47,55 +45,19 @@
 </nav>
 
 <div class="container-fluid">
-<p class="h1 mt-3">Dashboard</p>
-<p class="h6">You can view all the recorded data on this dashboard.</p>
+<p class="h1 mt-3">Registration</p>
+<p class="h6">You can add record for students here.</p>
 <div class="card mt-2">
   
   <div class="card-header" style="text-align: Center;">List of Pet & Owner</div>
   <div class="card-body">
-  <table class="table">
-    <thead>
-      <tr>
-        <th width="300">Pet ID</th>
-        <th width="300">Pet Name</th>
-        <th width="300">Owner</th>
-        <th width="300">Contact No.</th>
-        <th width="100" style="text-align: Center;">Action</th>
-      </tr>
-    </thead>
-<tbody id="results">
-</div>
-</tbody>
-</body>
-</table></div>
+ </div>
   <div class="card-footer">-</div>
 </div>
  
 
 </div>
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
 
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title">Pet Information</h4>
-        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-      </div>
-
-      <!-- Modal body -->
-      <div class="modal-body">
-        Modal body..
-      </div>
-
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-      </div>
-
-    </div>
-  </div>
-</div>
 
 <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
  
