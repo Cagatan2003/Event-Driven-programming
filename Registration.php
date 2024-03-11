@@ -47,7 +47,7 @@
 <div class="card mt-3">
   
 <form action='/web-page/model/save.php' method="POST">
-  <div class="card-header" style="text-align: Center; "> <p class="h5" >Owner's Information</p></div>
+  <div class="card-header" style="text-align: Center; background-color: #e17055;"> <p class="h5" >Owner's Information</p></div>
   <div class="card-body">
   <?php 
 if(isset($_GET['success'])) {
@@ -86,7 +86,7 @@ if(isset($_GET['success'])) {
         </div>
         <div class="card mt-3">
 
-        <div class="card-header" style="text-align: Center;"> <p class="h5">Owner's Information</p></div>
+        <div class="card-header" style="text-align: Center; background-color: #e17055;" > <p class="h5">Pet's Information</p></div>
 
   
         <div class="col-md-3">
@@ -111,10 +111,12 @@ if(isset($_GET['success'])) {
             <label>Date of Birth or Age: <b class="text-danger">*</b></label>
             <input name="inp_page" required type="text" placeholder="Enter age or birth here..." class="form-control mt-2">
         </div>
-        <div class="col-md-6">
+        
+        <div class="col-md-6 mt-3">
             <label>Gender:  <b class="text-danger">*</b></label>
             <select name="inp_pgender" required  class="form-control  mt-2">
-            <div class="row  mt-3">
+
+          
         <div class="col-md-3 mt-3">
                 <option value="" disabled select> ---Select Gender---</option>
                 <option value="Male">Male</option>
